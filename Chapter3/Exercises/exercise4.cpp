@@ -1,11 +1,11 @@
-import<iostream>;
-import<vector>;
+#include <iostream>;
+#include <vector>;
 
 using namespace std;
 
 int main()
 {
-	vector<double>nums;
+	vector<double> nums;
 
 	for (double num; cin >> num;)
 		nums.push_back(num);
